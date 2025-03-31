@@ -1,6 +1,6 @@
 # D3.4: Association of cell assembly and testing data via a digital twin, and an implementation for integrating battery-cell history containing both automated and manual data
 
-This deliverable demonstrates the integration of coin cell data and metadata collected from manual/automated assembly and testing experiments into an ELN, including timestamped metadata for recording sample history. The involved scripts are also provided.
+This deliverable demonstrates the integration of coin cell data and metadata collected from manual/automated assembly and testing experiments into an ELN, including timestamped metadata for recording sample history. The functionality is implemented in the [Aurora Cycler Manager](https://github.com/EmpaEconversion/aurora-cycler-manager/tree/0.5.1).
 
 ## Authors
 
@@ -14,7 +14,7 @@ The goal of this deliverable is to demonstrate the storing of data and metadata 
 
 ## Achievement
 
-We have developed an application for battery sample tracking and cycling data analysis, featuring a graphical user interface called Aurora Cycler Manager. As part of this deliverable, we have integrated the capability to automatically upload battery cycling data and metadata to the OpenBis Electronic Lab Notebook (ELN). Additionally, we have implemented functionality to automatically ontologize the metadata using the BattINFO ontology (as described in Deliverable [D3.3](https://github.com/ord-premise/battery-domain-specific-language)). The complete history of the cell—including both assembly and cycling—can be tracked using timestamps embedded in the raw data (stored in the HDF5 file). The link provided points to the current version of the script. This application is under active development to align with our long-term objectives.
+We have developed an application for battery sample tracking and cycling data analysis, featuring a graphical user interface called [Aurora Cycler Manager](https://github.com/EmpaEconversion/aurora-cycler-manager/tree/0.5.1). As part of this deliverable, we have integrated the capability to automatically upload battery cycling data and metadata to the OpenBis Electronic Lab Notebook (ELN). The feature includes automatic semantic annotation of metadata using the BattINFO ontology, leveraging the tools developed in deliverable [D3.3](https://github.com/ord-premise/battery-domain-specific-language). The complete history of the cell—including both assembly and cycling—can be tracked using timestamps embedded in the raw data (stored in the HDF5 file). The Aurora Cycler Manager is in active development. The link provided here points to the version used in this work.
 
 ## Long-term goals
 
@@ -29,7 +29,7 @@ This repository will evolve as we continue to work towards these goals.
 ## External links
 
 - [openBIS](https://openbis.ch/)
-- [Aurora cycler manager version 0.5.1](https://github.com/EmpaEconversion/aurora-cycler-manager/releases/tag/0.5.1)
+- [Aurora cycler manager version 0.5.1](https://github.com/EmpaEconversion/aurora-cycler-manager/tree/0.5.1)
 
 ## Acknowledgements
 
