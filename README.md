@@ -5,6 +5,7 @@ This deliverable demonstrates the integration of coin cell data and metadata col
 ## Authors
 
 - Nukorn Plainpan (Empa)
+- Graham Kimbell (Empa)
 - Corsin Battaglia (Empa)
 
 ## Short-term goal
@@ -13,7 +14,7 @@ The goal of this deliverable is to demonstrate the storing of data and metadata 
 
 ## Achievement
 
-We developed a script for deploying collected data and metadata from coin cell assembly and testing experiments by in-lab hardware/software into the openBIS ELN including history-tracking metadata (timestamps).
+We have developed an application for battery sample tracking and cycling data analysis, featuring a graphical user interface called Aurora Cycler Manager. As part of this deliverable, we have integrated the capability to automatically upload battery cycling data and metadata to the OpenBis Electronic Lab Notebook (ELN). Additionally, we have implemented functionality to automatically ontologize the metadata using the BattINFO ontology (as described in Deliverable [D3.3](https://github.com/ord-premise/battery-domain-specific-language)). The complete history of the cell—including both assembly and cycling—can be tracked using timestamps embedded in the raw data (stored in the HDF5 file). The link provided points to the current version of the script. This application is under active development to align with our long-term objectives.
 
 ## Long-term goals
 
@@ -28,6 +29,7 @@ This repository will evolve as we continue to work towards these goals.
 ## External links
 
 - [openBIS](https://openbis.ch/)
+- [Aurora cycler manager version 0.5.1](https://github.com/EmpaEconversion/aurora-cycler-manager/releases/tag/0.5.1)
 
 ## Acknowledgements
 
